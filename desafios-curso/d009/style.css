@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+main{
+    box-shadow:30px 20px 20px;
+    margin: auto;
+}
