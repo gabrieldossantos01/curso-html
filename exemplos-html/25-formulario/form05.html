@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form05</title>
+    <style>
+        form{
+          
+        }
+        fieldset{
+            gap: 10px;
+            margin-bottom: 8px;
+            padding:15px;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>espaço</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset> 
+            <legend>Sexo</legend>
+            
+            <input type="radio" name="sexo" id="isxmas"><label for="isxmas">Masculino</label> <br>
+            
+            <input type="radio" name="sexo" id="isxfem" checked><label for="isxfem">Feminino</label>
+        </fieldset>
+       
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+          
+            <input type="checkbox" name="fut" id="ifut" checked><label for="ifut">Futebol</label> <br>
+            
+            <input type="checkbox" name="baska" id="ibaska"><label for="ibaska">Basquete</label> <br>
+            
+            <input type="checkbox" name="volei" id="ivolei"><label for="ivolei">volei</label> <br>
+        
+            <input type="checkbox" name="nat" id="inat"><label for="inat">Natação</label> <br>
+          
+            <input type="checkbox" name="tenis" id="itenis"><label for="itenis">Tenis</label>
+        </fieldset>
+     <div class="sub">
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+     </div>
+    </form>
+</body>
+</html>
