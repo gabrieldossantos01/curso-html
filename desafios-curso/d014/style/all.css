@@ -25,7 +25,7 @@ ul{
 a{
     text-decoration: none;
     color: black;
-    display: block;
+    display:block;
     padding: 10px;
     background-color: rgb(102, 102, 102);
     text-align: center;
@@ -39,7 +39,7 @@ a:hover{
 }
 
 
-#nav{
+.material-symbols-outlined{
 background-color: rgb(83, 83, 83);
 color: rgb(210, 210, 210);
 display: block;

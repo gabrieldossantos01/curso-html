@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* typical device breakpoints 
+pequenas telas:600px
+telefone: min-600px/768px
+tablet: max-768px/992px
+desktop: 992px/1200px
+grandes telas: +1200px
+*/
+
+@media print{
+  header{
+        display: none;
+    }
+}
+   
+
+@media screen and (min-width: 768px) {
+   #nav{
+    display: none;
+   }
+   menu{
+    display: block;
+    
+    
+   }
+
+ 
+   .il{
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-left: 2px;
+
+   }
+   
+   main{
+    width: 768px;
+   }
+}
