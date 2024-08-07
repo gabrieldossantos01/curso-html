@@ -15,44 +15,78 @@ grandes telas: +1200px */
     --fg_hover: #999488;
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px)  /* CONFIGURAÇÃO PARA TABLET */{
   
     body{
         background-image: linear-gradient(to bottom, #60584b, white);
     }
   
-  
     #login{
         width: 90vw;
-        
+        height: 45%;
     } 
-
+   
     #img{
         float: left;
         width: 35%;
         height: 100%;
+        
     }
 
     #formulario{
         float: right;
          width: 65%;
     }
+    
+    form{
+        margin-left: 250px;
+    }
+    
+     h1 , p{
+        transform: translateY(25px);
+     }
+
+    .campo{
+        margin-left: 55px;
+        transform: translateY(50px);
+    }
+    
+    .log{
+        width: 44.5vh;
+        display: inline-block;
+        margin: auto;
+    }
 
     #ienter{
-        display: block;
-        width: 100%;
-        background-color: black;
+        width: 362px;
     }
+
+    .enter_duo{
+      width: 349px;
+      transform: translateY(55px);
+    }
+
 }
 
-@media screen and (min-width: 992px)  {
+@media screen and (min-width: 992px) /* CONFIGURAÇÃO PC */ {
    
     body{
         background-image: linear-gradient(to bottom, #60584b, white);
     }
+
+    h1  {
+        margin-top: 30px;
+    }
+
+    form{
+        padding-top: 200px;
+        transform: translateX(10px) translateY(-20%);
+    }
    
+
     #login{
         width: 950px;
+        height: 50%;
     }     
 
     #img{
@@ -61,10 +95,26 @@ grandes telas: +1200px */
         height: 100%;
     }
 
+    .log{
+        width: 48%;
+    }
+
     #formulario{
         float: right;
         width: 60%;
     }
 
+    #ienter{
+        width: 49%;
+        padding: 5px;
+        margin-bottom: 3px;
+        transform: translateX(-20px);
+      }
+  
+    a{
+          width: px;
+          margin-right: 72px;
+          padding: 4px;
+      }
     
 }
