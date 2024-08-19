@@ -47,22 +47,23 @@ grandes telas: +1200px */
      }
 
     .campo{
-        margin-left: 55px;
+        margin-left: 48px;
         transform: translateY(50px);
     }
     
     .log{
-        width: 44.5vh;
+        width: 45vh;
         display: inline-block;
         margin: auto;
     }
 
     #ienter{
-        width: 362px;
+        width: 50vh;
+     
     }
 
     .enter_duo{
-      width: 349px;
+      width: 48vh;
       transform: translateY(55px);
     }
 
@@ -80,7 +81,7 @@ grandes telas: +1200px */
 
     form{
         padding-top: 200px;
-        transform: translateX(10px) translateY(-20%);
+        transform: translateX(30px) translateY(-20%);
     }
    
 
@@ -112,7 +113,7 @@ grandes telas: +1200px */
       }
   
     a{
-          width: px;
+          width: 48%;
           margin-right: 72px;
           padding: 4px;
       }
