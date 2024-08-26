@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #pai{
+            text-align: center;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            box-sizing: border-box;
+            margin: 10px;
+
+        }       
+
+        .filho{
+            border: 1px solid black ;
+            padding-bottom: 5px;
+                
+        }
+        
+        #imenu:hover{
+            background-color: gray;
+            padding-right: 4px;
+            padding-left: 4px;
+            transition: 1s;
+        }
+
+        #jn:hover{
+            background-color: gray;
+            padding-left: 10px;
+            padding-right: 10px;
+            transition: 1s;        
+        }
+
+        #data:hover{
+            background-color: gray;
+            padding-left: 2px;
+            padding-right: 2px;
+            transition: 1s;
+        }
+        
+        #imenu{
+         
+            flex-basis: 140px;
+            flex-grow: 1;
+            flex-shrink: 2;
+        }
+
+        #jn{
+            flex-basis: 250px;
+            flex-grow: 2;
+            flex-shrink: 10;
+        }
+
+        #data{
+            flex-basis: 100px;
+            flex-grow: 1;
+            flex-shrink: 5;
+        }
+
+        #img{
+           background: url(http://nucleopiratininga.org.br/wp-content/uploads/2014/05/494635659502819-2.jpg);
+           height: 350px;
+           background-size: cover;
+           margin-bottom: 15px;
+
+        }
+
+        main{
+            width: 500px;
+            display: block;
+            margin: auto;
+            background-color: lightgray;
+            padding: 30px;
+            text-align: justify;
+            border-radius: 15px;
+            
+        }
+
+        
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div id="pai">
+            <div class="filho" id="imenu">menu</div>
+            <div class="filho" id="jn">jornal</div>
+            <div class="filho" id="data">20/08/24</div>
+        </div>
+    </header>
+    <main>
+        <div id="img">
+          
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, similique odio? Accusantium eum vero nobis voluptate voluptas iure laudantium sunt provident? Doloremque repellat facere earum numquam odio optio aliquam reprehenderit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus nobis deserunt facere rem placeat, magni error libero quos? Deserunt possimus modi, fuga quisquam hic consequuntur facilis repudiandae eveniet velit eos.</p>
+    </main>
+</body>
+</html>
