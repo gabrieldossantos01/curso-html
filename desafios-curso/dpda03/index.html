@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>datalist</title>
+</head>
+<body>
+    <form action="cha.php" method="post" autocomplete="on">
+        <div id="sel">
+            <select name="sele" id="isel">
+                <option value="" selected
+                >escolha</option>
+                <option value="">bom</option>
+                <option value="">medio</option>
+                <option value="">ruim</option>
+            </select>
+        </div>
+
+        <div id="dt">
+            <input type="text" name="text" id="itext" list="lista">
+            <label for="itext">shake</label>
+            <datalist id="lista">
+             <option value="">fdd</option>
+            </datalist>
+        </div>
+    </form>
+</body>
+</html>

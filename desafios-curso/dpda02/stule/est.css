@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    font-size: 1.8em;
+    text-align: justify;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+#iparalax{
+    background: url(https://imgs.search.brave.com/0o6l-Oiw2d3goGybFIpY-083ZLZLGRUXzG_0iqUfIuA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yb2xs/aW5nc3RvbmUuY29t/LmJyL21lZGlhL192/ZXJzaW9ucy8yMDIz/LzA3L21mLWRvb20t/cmFwcGVyLWNhdXNh/LW1vcnRlLWZvdG8t/cGV0ZXIta3JhbWVy/LWdldHR5LWltYWdl/c193aWRlbGcuanBn) no-repeat fixed;
+    background-position:  center bottom;
+    padding: 50px;
+}
+
+p{
+    margin-top: 50px;
+}
