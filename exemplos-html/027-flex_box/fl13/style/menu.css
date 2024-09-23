@@ -26,15 +26,23 @@ header{
 }
 
 h1{
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
+   text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.821);
     flex: 0 0 200px;
+   
+}
+
+h1:hover{
+    color: black;
+    transition: all .4s;
+    text-shadow: none;
 }
 
 nav{
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+    justify-content:flex-end;
 
 }
 
@@ -53,7 +61,8 @@ nav > a{
 nav > a:hover{
     background-color: white;
     color: black;
-    transition: background-color .5s;
+    transition: background-color .8s;
+   
 }
 
 main{

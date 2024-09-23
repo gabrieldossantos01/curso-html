@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+nav , header{
+    flex-flow: column nowrap;
+
+}
+
+h1{
+    flex: 1 1 80px ;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 18px;
+    cursor: pointer;
+}
+
+
+
+nav > a{
+    width: 90vw;
+
+}
+
