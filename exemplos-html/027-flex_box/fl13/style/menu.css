@@ -23,6 +23,7 @@ header{
     justify-content: space-between;
     flex-flow: row wrap;
     align-items: center;
+    transition: width .4s ;
 }
 
 h1{
@@ -54,7 +55,7 @@ nav > a{
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
-
+   
 }
 
 
