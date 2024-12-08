@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    #box{
+     background-image: none;
+     height: 72%;
+    }
+
+   #start{
+    padding-bottom: 70px;
+   }
+
+   h2{
+   
+   }
+
+   #box > p{
+    transform: translate(38px , 250px);
+    text-align: center;
+    color: black;
+    padding-bottom: 20px;
+   }
+}
