@@ -10,8 +10,11 @@
     padding-bottom: 70px;
    }
 
-   h2{
-   
+   p{
+    display: block;
+    margin: auto;
+    width: 200px;
+    transform: translateX(-20px);
    }
 
    #box > p{
